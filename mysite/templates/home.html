@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>main page</title>
+    <link href="https://fonts.googleapis.com/css?family=Pattaya" rel="stylesheet">
+
+    <style>
+        body{
+        background-image: url("{% static 'img/Leaves.png' %");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center top;
+        }
+        #subject{
+        font-size: 100px;
+        text-align: center;
+        color: orange;
+        font-family: 'Pattaya', sans-serif, Apple SD Gothic Neo;
+        }
+        #title{
+        font-size:150px;
+        text-align:center;
+        color:forestgreen;
+        font-family: 'Pattaya', sans-serif, Apple SD Gothic Neo;
+        background-color:rgba(0, 255, 191, 0.1);
+        }
+        #made{
+        font-size:50px;
+        text-align:center;
+        color:darkgray;
+        font-family: 'Pattaya', sans-serif, Apple SD Gothic Neo;
+        }
+        .big{
+        color:hotpink;
+        ul li{
+        display:inline-block;
+
+        }
+        ul li{
+        display: inline-block;
+        font-size: 25px;
+        font-family: 'Pattaya', Apple SD Gothic New, D2Coding;
+        color: orangered;
+        border: 5px double orange;
+        border-radius: 10px;
+        margin: 20px 15px;
+
+
+
+    </style>
+</head>
+<body>
+    <h1 id="subject">DM4 WEB SERVICE MAKER</h1>
+    <h1 id="title">with Django Framework</h1>
+    <p id="made">Made By <span class="big">J</span>eong<span class="big">H</span>oon <span class="big">K</span>ang</p>
+    <ul>
+        <li>
+            <a>bookmark</a>
+            <a>blog</a>
+            <a>photo</a>
+
+
+        </li>
+    </ul>
+</body>
+</html>
